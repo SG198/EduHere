@@ -390,6 +390,11 @@ i{
         color: #ffffff;
     }
 }
+@media(max-width:568px){
+   .list ul{
+       flex-direction: column;
+   }
+}
 @media(max-width:461px){
     .container .mainImage{
          width: 300px;
